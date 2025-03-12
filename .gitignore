@@ -1,0 +1,37 @@
+# Compilação e build
+/target/
+*.jar
+*.war
+*.ear
+
+# Configurações do IntelliJ IDEA
+/.idea/
+*.iml
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+/logs/
+*.log
+/tmp/
+
+# Dependências do Maven e Gradle
+/mvnw
+/mvnw.cmd
+/.mvn/
+/build/
+.gradle/
+/out/
+
+# Arquivos de configuração sensíveis
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+.env
+
+# Banco de dados local
+/h2-console/
+*.db
