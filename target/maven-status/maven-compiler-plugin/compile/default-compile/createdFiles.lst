@@ -1,8 +1,0 @@
-br\com\erudio\exception\handler\CustomEntityResponseHandler.class
-br\com\erudio\repository\PersonRepository.class
-br\com\erudio\services\PersonServices.class
-br\com\erudio\controllers\PersonController.class
-br\com\erudio\model\Person.class
-br\com\erudio\exception\ExceptionResponse.class
-br\com\erudio\exception\ResourceNotFoundException.class
-br\com\erudio\Startup.class
