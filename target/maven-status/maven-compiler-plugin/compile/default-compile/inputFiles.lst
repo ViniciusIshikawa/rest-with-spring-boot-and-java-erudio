@@ -1,3 +1,5 @@
+C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\config\ObjectMapperConfig.java
+C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\config\WebConfig.java
 C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\controllers\PersonController.java
 C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\controllers\TestLogController.java
 C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\data\dto\v1\PersonDTO.java
@@ -9,5 +11,6 @@ C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\eru
 C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\mapper\ObjectMapper.java
 C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\model\Person.java
 C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\repository\PersonRepository.java
+C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\serializer\GenderSerializer.java
 C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\services\PersonServices.java
 C:\DESENV\Backend\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\Startup.java

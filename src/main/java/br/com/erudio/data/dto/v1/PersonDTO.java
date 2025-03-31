@@ -16,28 +16,28 @@ import java.util.Objects;
 
 //Alterar a serialização do JSON.
 //@JsonPropertyOrder({"id", "address", "first_name", "lastName", "gender"})
-@JsonFilter("PersonFilter")
+//@JsonFilter("PersonFilter")
 public class PersonDTO implements Serializable {
 
     private static final long serialVersion = 1L;
 
     private long id;
 
-    @JsonFormat(pattern = "dd/MM/yyyy")
+    //@JsonFormat(pattern = "dd/MM/yyyy")
     private Date birthDay;
 
 //    @JsonProperty("first_name")
     private String firstName;
 
-    @JsonInclude(JsonInclude.Include.NON_NULL)
+    //@JsonInclude(JsonInclude.Include.NON_NULL)
     private String phoneNumber;
 
-    @JsonInclude(JsonInclude.Include.NON_EMPTY)
+    //@JsonInclude(JsonInclude.Include.NON_EMPTY)
     private String lastName;
     private String address;
 
 //    @JsonIgnore
-    @JsonSerialize(using = GenderSerializer.class)
+    //@JsonSerialize(using = GenderSerializer.class)
     private String gender;
 
     private String sensitiveData;
