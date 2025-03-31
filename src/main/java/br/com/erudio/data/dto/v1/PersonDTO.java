@@ -1,16 +1,26 @@
 package br.com.erudio.data.dto.v1;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
 import java.io.Serializable;
 import java.util.Objects;
 
+//Alterar a serialização do JSON.
+@JsonPropertyOrder({"id", "address", "first_name", "lastName", "gender"})
 public class PersonDTO implements Serializable {
 
     private static final long serialVersion = 1L;
 
     private long id;
+
+    @JsonProperty("first_name")
     private String firstName;
     private String lastName;
     private String address;
+
+    @JsonIgnore
     private String gender;
 
     public PersonDTO() {}
